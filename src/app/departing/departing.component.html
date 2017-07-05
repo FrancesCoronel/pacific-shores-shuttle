@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-4 departing">
+    <div class="jumbotron">
+      <h1><i class="fa fa-moon-o"></i>Departures</h1>
+      <hr>
+      <h4>Pacific Shores <i class="fa fa-arrow-circle-o-right"></i> Redwood City Caltrain</h4>
+      <hr>
+      <p>What area of Pacific Shores are you departing from?</p>
+      <select [(ngModel)]="selectedStop">
+        <option *ngFor="let stop of stops" [ngValue]="stop"> {{stop.name}} </option>
+      </select>
+      <hr>
+      <h3>Pick Up</h3>
+      <p>For <b>{{ selectedStop.name }}</b>, the shuttle will pick you up <b>{{ selectedStop.description }}</b>.</p>
+      <h3>Drop Off</h3>
+      <p>The shuttle will drop you off by the Redwood City Caltrain station on the eastside of the tracks on Winslow.</p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-8">
+    <div class="train-schedule">
+      <table class="table table-hover table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>Line</th>
+            <th>Departing</th>
+            <th>ETA</th>
+            <th>Arrives</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let shuttle of selectedStop.departing">
+            <td>{{ shuttle.line }}</td>
+            <td>{{ shuttle.leaves | amParse:'hh:mm a' | amDateFormat:'hh:mm a' }}</td>
+            <td>{{ findETA(shuttle.leaves) }}</td>
+            <td>{{ shuttle.arrives | amParse:'hh:mm a' | amDateFormat:'hh:mm a' }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+    <br>
+    <img class="shuttle-map-departing img-fluid center" alt="Pacific Shores Shuttle Map" src="http://www.caltrain.com/Assets/shuttles/Maps/Pacific+Shores+Shuttle+MAP+2016.png">
+    <br>
+  </div>
+</div>

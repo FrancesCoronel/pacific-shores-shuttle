@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 5rem;
+  margin-bottom: 70px;
+}
+
+body>.container {
+  padding: 70px 15px 0;
+}
+
+.loading {
+  text-align: center;
+}
+
+.table-responsive {
+  display: table;
+}
+
+.shuttle-map-departing {
+  width: 50%;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  padding: 2rem;
+}
+
+.arriving .jumbotron,
+.departing .jumbotron {
+  color: white;
+}
+
+.arriving .jumbotron {
+  background-color: #FF913F;
+}
+
+.departing .jumbotron {
+  background-color: #FF663F;
+}
+
+.fa-sun-o,
+.fa-moon-o {
+  margin-right: .5em;
+}
