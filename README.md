@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/fvcproductions/pacific-shores-shuttle/master/src/assets/img/logo.png" width="100">
+![Logo](https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg)
 
 # Pacific Shores Shuttle
 
