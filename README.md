@@ -1,4 +1,4 @@
-<img src="src/assets/img/logo.svg" width="100">
+<img src="https://raw.githubusercontent.com/fvcproductions/pacific-shores-shuttle/master/src/assets/img/logo.png" width="100">
 
 # Pacific Shores Shuttle
 
@@ -59,16 +59,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - [Getting Started with Angular 2](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents)
     - [Angular CLI](https://app.pluralsight.com/library/courses/angular-cli/table-of-contents)
 2. [Angular CLI](https://cli.angular.io/)
-    - `npm i -g @angular/cli`
-    - `ng new my-dream-app`
-    - `cd my-dream-app`
-    - `ng generate`
-    - `ng serve`
 3. [Selenium-Cucumbus JS](https://github.com/john-doherty/selenium-cucumber-js)
 4. Sass Compiler `ng set defaults.styleExt scss`
-    - Sass is always better than CSS
-5. Installed sass-convert with Docker so I could beautify Sass files
-    - `docker pull unibeautify/sass-convert`
+5. Installed `sass-convert` with Docker so I could beautify Sass files
 6. Bootstrap 4 
 7. Font Awesome
 
