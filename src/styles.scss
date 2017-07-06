@@ -2,18 +2,25 @@
 
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
+
+/* Define Colors */
+
+$base:#D1343E;
+$arriving: #FF913F;
+$departing: #FF663F;
+$hover-text: #333;
+
+/* Define Base */
+
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  margin-top: 5rem;
-  margin-bottom: 70px;
-}
-
-body>.container {
-  padding: 70px 15px 0;
+  min-height: 100vh;
+  position: relative;
+  padding-top: 5rem;
 }
 
 .loading {
@@ -24,33 +31,67 @@ body>.container {
   display: table;
 }
 
-.shuttle-map-departing {
-  width: 50%;
-}
-
-img.center {
-  display: block;
-  margin: 0 auto;
-}
-
 .jumbotron {
   padding: 2rem;
 }
 
-.arriving .jumbotron,
-.departing .jumbotron {
+.arriving-info .jumbotron,
+.departing-info .jumbotron {
   color: white;
 }
 
-.arriving .jumbotron {
-  background-color: #FF913F;
+.arriving a,
+.departing a,
+.about a {
+  color: white;
 }
 
-.departing .jumbotron {
-  background-color: #FF663F;
+.arriving a:hover,
+.departing a:hover,
+.about a:hover {
+  text-decoration: none;
+  color: $hover-text !important;
 }
 
-.fa-sun-o,
-.fa-moon-o {
+.arriving a:focus,
+.departing a:focus,
+.about a:focus {
+  text-decoration: none;
+  color: $hover-text !important;
+}
+
+.arriving .jumbotron,
+.arriving-info .jumbotron {
+  background-color: $arriving;
+}
+
+.departing .jumbotron,
+.departing-info .jumbotron {
+  background-color: $departing;
+}
+
+.arriving-info .jumbotron a,
+.departing-info .jumbotron a {
+  color: white;
+  font-weight: bold;
+  &:hover {
+    color: $hover-text;
+    text-decoration: none;
+  }
+}
+
+.about .jumbotron {
+  background-color: $base;
+}
+
+.fa {
   margin-right: .5em;
+}
+
+.fa-arrow-circle-o-right {
+  margin-right: 0 !important;
+}
+
+span.fa-stack.fa-4x {
+  margin-bottom: .25em;
 }

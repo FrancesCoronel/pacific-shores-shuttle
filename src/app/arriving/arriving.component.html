@@ -1,22 +1,25 @@
 <div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-4 arriving">
+  <div class="col-sm-12 col-md-12 col-lg-4 arriving-info">
     <div class="jumbotron">
       <h1><i class="fa fa-sun-o"></i>Arrivals</h1>
       <hr>
       <h4>Redwood City CalTrain <i class="fa fa-arrow-circle-o-right"></i> Pacific Shores</h4>
       <hr>
       <p>What area of Pacific Shores are you trying to get to?</p>
-      <select [(ngModel)]="selectedStop">
+      <select [(ngModel)]="selectedStop" class="btn btn-secondary dropdown-toggle">
         <option *ngFor="let stop of stops" [ngValue]="stop">{{ stop.name }}</option>
       </select>
       <hr>
       <h3>Pick Up</h3>
-      <p>The shuttle will pick you up by the Redwood City Caltrain station on the eastside of tracks on Winslow.</p>
+      <p>The shuttle will pick you up by the Redwood City Caltrain station <a href="https://www.google.com/maps/@37.4856796,-122.2308307,3a,75y,265.5h,81.46t/data=!3m6!1e1!3m4!1s5ahB77CaFMtBQJr3sKwQPw!2e0!7i13312!8i6656"
+          target="_blank" title="Winslow Street">on the eastside of tracks on Winslow</a>.</p>
       <h3>Drop Off</h3>
-      <p>For <b>{{ selectedStop.name }}</b>, the shuttle will drop you off <b>{{ selectedStop.description }}</b>.</p>
+      <p>For {{ selectedStop.name }}, the shuttle will drop you off at the {{ selectedStop.description }}.</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-8">
+    <app-gallery></app-gallery>
+    <br>
     <div class="train-schedule">
       <table class="table table-hover table-striped table-responsive">
         <thead>
@@ -38,8 +41,5 @@
       </table>
       <hr>
     </div>
-    <br>
-    <img class="shuttle-map-departing img-fluid center" alt="Pacific Shores Shuttle Map" src="http://www.caltrain.com/Assets/shuttles/Maps/Pacific+Shores+Shuttle+MAP+2016.png">
-    <br>
   </div>
 </div>

@@ -4,11 +4,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
   <a class="navbar-brand" [routerLink]="['/']">
-    <img src="/assets/img/logo.svg" height="50" alt="Pacific Shores Shuttle">
+    <img src="https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg" height="50" alt="Pacific Shores Shuttle">
   </a>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <a class="navbar-brand" [routerLink]="['/']">Pacific Shores Shuttle</a>
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['/about']"><i class="fa fa-info-circle"></i>About</a>
+      </li>
       <li class="nav-item" [routerLinkActive]="['active']">
         <a class="nav-link" [routerLink]="['/arriving']"><i class="fa fa-sun-o"></i>Arrivals</a>
       </li>
