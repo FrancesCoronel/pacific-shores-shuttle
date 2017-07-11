@@ -1,10 +1,15 @@
 footer {
-  position: relative;
+  position: sticky;
+  /* currently in development for MS Edge */
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -o-sticky;
   bottom: 0;
   background-color: #f5f5f5;
   color: #333;
   width: 100%;
   padding: .5em;
+  text-align: center;
   p {
     margin: 0;
   }

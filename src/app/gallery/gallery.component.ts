@@ -65,6 +65,12 @@ export class GalleryComponent implements OnInit {
         medium: 'assets/img/1700.jpg',
         big: 'assets/img/1700.jpg',
         description: 'This is the stop for 1700 Seaport Blvd.'
+      },
+      {
+        small: 'assets/img/1900.jpg',
+        medium: 'assets/img/1900.jpg',
+        big: 'assets/img/1900.jpg',
+        description: 'This is the stop for 1900-2000 Seaport Blvd.'
       }
     ];
   }

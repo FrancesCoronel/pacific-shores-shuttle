@@ -13,13 +13,11 @@ $hover-text: #333;
 /* Define Base */
 
 html {
-  position: relative;
   min-height: 100%;
 }
 
 body {
   min-height: 100vh;
-  position: relative;
   padding-top: 5rem;
 }
 
@@ -94,4 +92,11 @@ body {
 
 span.fa-stack.fa-4x {
   margin-bottom: .25em;
+}
+
+$mobile: 768px;
+@media (max-width: $mobile) {
+  .table-responsive {
+    display: block;
+  }
 }
