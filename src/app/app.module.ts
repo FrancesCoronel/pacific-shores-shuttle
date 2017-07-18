@@ -21,6 +21,8 @@ import { ArrivingComponent } from './arriving/arriving.component';
 import { DepartingComponent } from './departing/departing.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
+/* Created Pipes */
+
 const routes: Routes = [
   { path: '', component: WelcomeComponent },
   { path: 'about', component: AboutComponent },

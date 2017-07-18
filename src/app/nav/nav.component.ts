@@ -9,7 +9,7 @@ import { MomentModule } from 'angular2-moment';
 })
 
 export class NavComponent implements OnInit {
-  myDate: Date;
+  todayDate: Date;
 
   constructor() { }
 
@@ -19,7 +19,7 @@ export class NavComponent implements OnInit {
 
   liveClock() {
     setInterval(() => {
-      this.myDate = new Date();
+      this.todayDate = new Date();
       // console.log(this.myDate);
     }, 1000);
   }

@@ -10,8 +10,10 @@
         <option *ngFor="let stop of stops" [ngValue]="stop"> {{stop.name}} </option>
       </select>
       <hr>
+      <p>The trip will take <b>{{ selectedStop.duration }} minutes</b>.</p>
+      <hr>
       <h3>Pick Up</h3>
-      <p>For {{ selectedStop.name }}, the shuttle will pick you up at the {{ selectedStop.description }}.</p>
+      <p>For <b>{{ selectedStop.name }}</b>, the shuttle will pick you up at the <b>{{ selectedStop.description }}</b>.</p>
       <h3>Drop Off</h3>
       <p>The shuttle will drop you off by the Redwood City Caltrain station <a href="https://www.google.com/maps/@37.4856796,-122.2308307,3a,75y,265.5h,81.46t/data=!3m6!1e1!3m4!1s5ahB77CaFMtBQJr3sKwQPw!2e0!7i13312!8i6656"
           target="_blank" title="Winslow Street">on the eastside of tracks on Winslow</a>.</p>
@@ -21,20 +23,18 @@
     <app-gallery></app-gallery>
     <br>
     <div class="train-schedule table-responsive">
-      <table class="table table-hover table-striped table-responsive">
+      <table class="table table-hover table-striped">
         <thead>
           <tr>
-            <th>Line</th>
-            <th>Departing</th>
             <th>ETA</th>
-            <th>Arrives</th>
+            <th>Departing</th>
+            <th>Arriving</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let shuttle of selectedStop.departing">
-            <td>{{ shuttle.line }}</td>
-            <td>{{ shuttle.leaves | amParse:'hh:mm a' | amDateFormat:'hh:mm a' }}</td>
             <td>{{ findETA(shuttle.leaves) }}</td>
+            <td>{{ shuttle.leaves | amParse:'hh:mm a' | amDateFormat:'hh:mm a' }}</td>
             <td>{{ shuttle.arrives | amParse:'hh:mm a' | amDateFormat:'hh:mm a' }}</td>
           </tr>
         </tbody>

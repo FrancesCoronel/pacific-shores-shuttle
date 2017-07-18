@@ -12,6 +12,7 @@ export class DepartingComponent implements OnInit {
   stops = [{
     'name': '1200-1300 Seaport Blvd',
     'description': 'parking lot at the circle',
+    'duration': '18',
     'departing': [
       {
         'line': '258',
@@ -20,12 +21,12 @@ export class DepartingComponent implements OnInit {
       },
       {
         'line': '366',
-        'leaves': '4:24 pm',
-        'arrives': '4:42 pm'
+        'leaves': '4:30 pm',
+        'arrives': '4:48 pm'
       }, {
         'line': '268',
-        'leaves': '4:55 pm',
-        'arrives': '5:13 pm'
+        'leaves': '4:58 pm',
+        'arrives': '5:16 pm'
       }, {
         'line': '376',
         'leaves': '5:26 pm',
@@ -36,21 +37,22 @@ export class DepartingComponent implements OnInit {
         'arrives': '6:14 pm'
       }, {
         'line': '386',
-        'leaves': '6:25 pm',
-        'arrives': '6:43 pm'
+        'leaves': '6:24 pm',
+        'arrives': '6:42 pm'
       }, {
         'line': '288',
-        'leaves': '6:53 pm',
+        'leaves': '6:52 pm',
         'arrives': '7:10 pm'
       }, {
         'line': '190',
-        'leaves': '7:57 pm',
-        'arrives': '8:15 pm'
+        'leaves': '7:58 pm',
+        'arrives': '8:16 pm'
       }
     ]
   }, {
     'name': '1400 Seaport Blvd',
     'description': 'crosswalk between buildings 1400A & 1400B',
+    'duration': '16',
     'departing': [
       {
         'line': '258',
@@ -59,12 +61,12 @@ export class DepartingComponent implements OnInit {
       },
       {
         'line': '366',
-        'leaves': '4:26 pm',
-        'arrives': '4:42 pm'
+        'leaves': '4:32 pm',
+        'arrives': '4:48 pm'
       }, {
         'line': '268',
-        'leaves': '4:57 pm',
-        'arrives': '5:13 pm'
+        'leaves': '5:00 pm',
+        'arrives': '5:16 pm'
       }, {
         'line': '376',
         'leaves': '5:28 pm',
@@ -75,21 +77,22 @@ export class DepartingComponent implements OnInit {
         'arrives': '6:14 pm'
       }, {
         'line': '386',
-        'leaves': '6:27 pm',
-        'arrives': '6:43 pm'
+        'leaves': '6:26 pm',
+        'arrives': '6:42 pm'
       }, {
         'line': '288',
-        'leaves': '6:55 pm',
+        'leaves': '6:54 pm',
         'arrives': '7:10 pm'
       }, {
         'line': '190',
-        'leaves': '7:59 pm',
-        'arrives': '8:15 pm'
+        'leaves': '8:00 pm',
+        'arrives': '8:16 pm'
       }
     ]
   }, {
     'name': '1700 Seaport Blvd',
     'description': '2nd crosswalk in front of building 1700',
+    'duration': '14',
     'departing': [
       {
         'line': '258',
@@ -98,12 +101,12 @@ export class DepartingComponent implements OnInit {
       },
       {
         'line': '366',
-        'leaves': '4:28 pm',
-        'arrives': '4:42 pm'
+        'leaves': '4:34 pm',
+        'arrives': '4:48 pm'
       }, {
         'line': '268',
-        'leaves': '4:59 pm',
-        'arrives': '5:13 pm'
+        'leaves': '5:02 pm',
+        'arrives': '5:16 pm'
       }, {
         'line': '376',
         'leaves': '5:30 pm',
@@ -114,21 +117,22 @@ export class DepartingComponent implements OnInit {
         'arrives': '6:14 pm'
       }, {
         'line': '386',
-        'leaves': '6:29 pm',
-        'arrives': '6:43 pm'
+        'leaves': '6:28 pm',
+        'arrives': '6:42 pm'
       }, {
         'line': '288',
-        'leaves': '6:57 pm',
+        'leaves': '6:55 pm',
         'arrives': '7:10 pm'
       }, {
         'line': '190',
-        'leaves': '8:01 pm',
-        'arrives': '8:15 pm'
+        'leaves': '8:02 pm',
+        'arrives': '8:16 pm'
       }
     ]
   }, {
     'name': '1900-2000 Seaport Blvd',
     'description': 'circle between building 1900 & 2000',
+    'duration': '12',
     'departing': [
       {
         'line': '258',
@@ -137,12 +141,12 @@ export class DepartingComponent implements OnInit {
       },
       {
         'line': '366',
-        'leaves': '4:30 pm',
-        'arrives': '4:42 pm'
+        'leaves': '4:36 pm',
+        'arrives': '4:48 pm'
       }, {
         'line': '268',
-        'leaves': '5:01 pm',
-        'arrives': '5:13 pm'
+        'leaves': '5:04 pm',
+        'arrives': '5:16 pm'
       }, {
         'line': '376',
         'leaves': '5:32 pm',
@@ -153,16 +157,16 @@ export class DepartingComponent implements OnInit {
         'arrives': '6:14 pm'
       }, {
         'line': '386',
-        'leaves': '6:31 pm',
-        'arrives': '6:43 pm'
+        'leaves': '6:30 pm',
+        'arrives': '6:42 pm'
       }, {
         'line': '288',
-        'leaves': '6:59 pm',
+        'leaves': '6:58 pm',
         'arrives': '7:10 pm'
       }, {
         'line': '190',
-        'leaves': '8:03 pm',
-        'arrives': '8:15 pm'
+        'leaves': '8:05 pm',
+        'arrives': '8:16 pm'
       }
     ]
   }];
