@@ -45,7 +45,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 # Build out GitHub Pages friendly version
 $ ng build --prod --base-href "https://fvcproductions.github.io/pacific-shores-shuttle/"
 # Push changes to gh-pages branch
-$ ngh
+$ git add dist && git commit -m "Initial dist subtree commit"
+$ git subtree push --prefix dist origin gh-pages
 ```
 
 
