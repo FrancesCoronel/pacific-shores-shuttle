@@ -1,18 +1,10 @@
-![Logo](https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg)
+![Pacific Shores Shuttle](https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg)
 
 # Pacific Shores Shuttle
 
 [![Github Issues](https://img.shields.io/github/issues/fvcproductions/pacific-shores-shuttle.svg?style=flat-square)](https://github.com/fvcproductions/pacific-shores-shuttle/issues) [![GitHub Pull-Requests](https://img.shields.io/github/issues-pr/fvcproductions/pacific-shores-shuttle.svg?style=flat-square)](https://github.com/fvcproductions/pacific-shores-shuttle/pulls) [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square)](http://paypal.me/fvcproductions)
 
 If you work at Pacific Shores, you can figure out when the next shuttle is coming! 🚌
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Future Plans](#future-plans)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [Credits](#credits)
 
 ## Installation
 
@@ -43,10 +35,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ```bash
 # Build out GitHub Pages friendly version
-$ ng build --prod --base-href "https://fvcproductions.github.io/pacific-shores-shuttle/"
+ng build --prod --base-href "https://pacificshoresshuttle.com/"
 # Push changes to gh-pages branch
-$ git add dist && git commit -m "Initial dist subtree commit"
-$ git subtree push --prefix dist origin gh-pages
+git add dist && git commit -m "Initial dist subtree commit"
+git subtree push --prefix dist origin gh-pages
 ```
 
 
@@ -73,7 +65,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3. [Selenium-Cucumbus JS](https://github.com/john-doherty/selenium-cucumber-js)
 4. Sass Compiler `ng set defaults.styleExt scss`
 5. Installed `sass-convert` with Docker so I could beautify Sass files
-6. Bootstrap 4 
+6. Bootstrap 4
 7. Font Awesome
 
 ## Contributing
