@@ -13,120 +13,118 @@ export class ArrivingComponent implements OnInit {
   stops = [{
     'name': '1200-1300 Seaport Blvd',
     'description': 'parking lot at the circle',
-    'duration': '10',
+    'duration': '13',
     'arriving': [
       {
         'line': '207',
         'leaves': '6:52 am',
-        'arrives': '07:02 am'
+        'arrives': '07:05 am'
       }, {
         'line': '319',
         'leaves': '7:37 am',
-        'arrives': '7:47 am'
+        'arrives': '7:50 am'
       }, {
         'line': '221',
-        'leaves': '8:11 am',
-        'arrives': '8:21 am'
+        'leaves': '8:17 am',
+        'arrives': '8:30 am'
       }, {
         'line': '329',
-        'leaves': '8:37 am',
-        'arrives': '8:47 am'
+        'leaves': '8:46 am',
+        'arrives': '8:59 am'
       }, {
         'line': '231',
-        'leaves': '9:11 am',
-        'arrives': '9:21 am'
+        'leaves': '9:17 am',
+        'arrives': '9:30 am'
       }, {
-        'line': '233',
-        'leaves': '9:35 am',
-        'arrives': '9:45 am'
+        'line': '135',
+        'leaves': '10:00 am',
+        'arrives': '10:13 am'
       }, {
         'line': '237',
         'leaves': '10:36 am',
-        'arrives': '10:46 am'
+        'arrives': '10:49 am'
       }, {
         'line': '139',
-        'leaves': '11:00 am',
-        'arrives': '11:10 am'
+        'leaves': '11:05 am',
+        'arrives': '11:18 am'
       }
     ]
   }, {
     'name': '1400 Seaport Blvd',
     'description': 'crosswalk between buildings 1400A & 1400B',
-    'duration': '11',
+    'duration': '14',
     'arriving': [
       {
         'line': '207',
         'leaves': '6:52 am',
-        'arrives': '07:03 am'
-      },
-      {
+        'arrives': '07:06 am'
+      }, {
         'line': '319',
         'leaves': '7:37 am',
-        'arrives': '7:48 am'
-      },
-      {
+        'arrives': '7:51 am'
+      }, {
         'line': '221',
-        'leaves': '8:11 am',
-        'arrives': '8:22 am'
+        'leaves': '8:17 am',
+        'arrives': '8:31 am'
       }, {
         'line': '329',
-        'leaves': '8:37 am',
-        'arrives': '8:48 am'
+        'leaves': '8:46 am',
+        'arrives': '9:00 am'
       }, {
         'line': '231',
-        'leaves': '9:11 am',
-        'arrives': '9:22 am'
+        'leaves': '9:17 am',
+        'arrives': '9:31 am'
       }, {
-        'line': '233',
-        'leaves': '9:35 am',
-        'arrives': '9:46 am'
+        'line': '135',
+        'leaves': '10:00 am',
+        'arrives': '10:14 am'
       }, {
         'line': '237',
         'leaves': '10:36 am',
-        'arrives': '10:47 am'
+        'arrives': '10:50 am'
       }, {
         'line': '139',
-        'leaves': '11:00 am',
-        'arrives': '11:11 am'
-      }]
+        'leaves': '11:05 am',
+        'arrives': '11:19 am'
+      }
+    ]
   }, {
     'name': '1700 Seaport Blvd',
     'description': '2nd crosswalk in front of building 1700',
-    'duration': '12',
+    'duration': '15',
     'arriving': [
       {
         'line': '207',
         'leaves': '6:52 am',
-        'arrives': '07:04 am'
-      },
-      {
+        'arrives': '07:07 am'
+      }, {
         'line': '319',
         'leaves': '7:37 am',
-        'arrives': '7:49 am'
+        'arrives': '7:52 am'
       }, {
         'line': '221',
-        'leaves': '8:11 am',
-        'arrives': '8:23 am'
+        'leaves': '8:17 am',
+        'arrives': '8:32 am'
       }, {
         'line': '329',
-        'leaves': '8:37 am',
-        'arrives': '8:49 am'
+        'leaves': '8:46 am',
+        'arrives': '9:01 am'
       }, {
         'line': '231',
-        'leaves': '9:11 am',
-        'arrives': '9:23 am'
+        'leaves': '9:17 am',
+        'arrives': '9:32 am'
       }, {
-        'line': '233',
-        'leaves': '9:35 am',
-        'arrives': '9:47 am'
+        'line': '135',
+        'leaves': '10:00 am',
+        'arrives': '10:15 am'
       }, {
         'line': '237',
         'leaves': '10:36 am',
-        'arrives': '10:48 am'
+        'arrives': '10:51 am'
       }, {
         'line': '139',
-        'leaves': '11:00 am',
-        'arrives': '11:12 am'
+        'leaves': '11:05 am',
+        'arrives': '11:20 am'
       }
     ]
   }, {
@@ -137,36 +135,35 @@ export class ArrivingComponent implements OnInit {
       {
         'line': '207',
         'leaves': '6:52 am',
-        'arrives': '7:06 am'
-      },
-      {
+        'arrives': '07:09 am'
+      }, {
         'line': '319',
         'leaves': '7:37 am',
-        'arrives': '7:51 am'
+        'arrives': '7:54 am'
       }, {
         'line': '221',
-        'leaves': '8:11 am',
-        'arrives': '8:25 am'
+        'leaves': '8:17 am',
+        'arrives': '8:36 am'
       }, {
         'line': '329',
-        'leaves': '8:37 am',
-        'arrives': '8:51 am'
+        'leaves': '8:46 am',
+        'arrives': '9:03 am'
       }, {
         'line': '231',
-        'leaves': '9:11 am',
-        'arrives': '9:25 am'
+        'leaves': '9:17 am',
+        'arrives': '9:34 am'
       }, {
-        'line': '233',
-        'leaves': '9:35 am',
-        'arrives': '9:49 am'
+        'line': '135',
+        'leaves': '10:00 am',
+        'arrives': '10:17 am'
       }, {
         'line': '237',
         'leaves': '10:36 am',
-        'arrives': '10:50 am'
+        'arrives': '10:53 am'
       }, {
         'line': '139',
-        'leaves': '11:00 am',
-        'arrives': '11:14 am'
+        'leaves': '11:05 am',
+        'arrives': '11:22 am'
       }
     ]
   }];
