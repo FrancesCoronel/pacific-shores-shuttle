@@ -1,102 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~font-awesome/css/font-awesome.css";
-
-/* Define Colors */
-
-$base:#D1343E;
-$arriving: #FF913F;
-$departing: #FF663F;
+// Define Colors
+$base: #d1323d;
+$arriving: #ff913f;
+$departing: #ff663f;
 $hover-text: #333;
-
-/* Define Base */
-
-html {
-  height: 100%;
-}
-
+// Define Base
 body {
-  height: 100vh;
-  padding-top: 5rem;
+    padding-top: 5rem;
+    height: 70vh;
 }
 
 .loading {
-  text-align: center;
+    text-align: center;
 }
 
 .table-responsive {
-  display: table;
+    display: table;
 }
 
 .jumbotron {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .arriving-info .jumbotron,
 .departing-info .jumbotron {
-  color: white;
+    color: white;
 }
 
 .arriving a,
 .departing a,
 .about a {
-  color: white;
+    color: white;
 }
 
 .arriving a:hover,
 .departing a:hover,
 .about a:hover {
-  text-decoration: none;
-  color: $hover-text !important;
+    text-decoration: none;
+    color: $hover-text !important;
 }
 
 .arriving a:focus,
 .departing a:focus,
 .about a:focus {
-  text-decoration: none;
-  color: $hover-text !important;
+    text-decoration: none;
+    color: $hover-text !important;
 }
 
 .arriving .jumbotron,
 .arriving-info .jumbotron {
-  background-color: $arriving;
+    background-color: $arriving;
 }
 
 .departing .jumbotron,
 .departing-info .jumbotron {
-  background-color: $departing;
+    background-color: $departing;
 }
 
 .arriving-info .jumbotron a,
 .departing-info .jumbotron a {
-  color: white;
-  font-weight: bold;
-  &:hover {
-    color: $hover-text;
-    text-decoration: none;
-  }
+    color: white;
+    font-weight: bold;
+    &:hover {
+        color: $hover-text;
+        text-decoration: none;
+    }
 }
 
 .about .jumbotron {
-  background-color: $base;
+    background-color: $base;
 }
 
 .fa {
-  margin-right: .5em;
+    margin-right: .5em;
 }
 
 .fa-arrow-circle-o-right {
-  margin-right: 0 !important;
+    margin-right: 0 !important;
 }
 
 span.fa-stack.fa-4x {
-  margin-bottom: .25em;
+    margin-bottom: .25em;
 }
 
 $mobile: 768px;
 @media (max-width: $mobile) {
-  .table-responsive {
-    display: block;
-  }
+    .table-responsive {
+        display: block;
+    }
 }

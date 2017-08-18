@@ -1,0 +1,17 @@
+p.nav-link.live-clock {
+    margin-bottom: 0;
+}
+
+.navbar {
+    background: #D1343E !important;
+    z-index: 3000;
+}
+
+p.live-clock {
+    color: white !important;
+    margin: 0;
+}
+
+.collapsing {
+    transition: height .25s ease;
+}

@@ -6,9 +6,11 @@
 
 If you work at Pacific Shores, you can figure out when the next shuttle is coming! 🚌
 
+![Screenshot](https://i.imgur.com/aewjZ76.png)
+
 ## Installation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ### Development server
 
@@ -37,10 +39,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 # Build out GitHub Pages friendly version
 ng build --prod --base-href "https://pacificshoresshuttle.com/"
 # Push changes to gh-pages branch
-git add dist && git commit -m "Initial dist subtree commit"
+git add dist && git commit -m "Making awesome changes"
 git subtree push --prefix dist origin gh-pages
 ```
-
 
 ### Further help
 
@@ -49,24 +50,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Future Plans
 
 - Add relevant background color depending on the time till next shuttle
-    - i.e. If no shuttle for next 10 hours, it will be red
+  - i.e. If no shuttle for next 10 hours, it will be red
 - Modularity should be improved
-    - code is not as DRY as it could be
-- Add 1900 Seaport Blvd picture
+  - code is not as DRY as it could be
 - Show only relevant pictures depending on selected stop
-    - i.e. If user chooses 1200 Seaport Blvd as stop, then only the map, caltrain pick up, and 1200 pick up stop image will show up
+  - i.e. If user chooses 1200 Seaport Blvd as stop, then only the map, caltrain pick up, and 1200 pick up stop image will show up
 
 ## Resources
 
-1. Pluralsight
-    - [Getting Started with Angular 2](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents)
-    - [Angular CLI](https://app.pluralsight.com/library/courses/angular-cli/table-of-contents)
-2. [Angular CLI](https://cli.angular.io/)
-3. [Selenium-Cucumbus JS](https://github.com/john-doherty/selenium-cucumber-js)
-4. Sass Compiler `ng set defaults.styleExt scss`
-5. Installed `sass-convert` with Docker so I could beautify Sass files
-6. Bootstrap 4
-7. Font Awesome
+- Pluralsight
+  - [Getting Started with Angular 2](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents)
+- [Angular CLI](https://cli.angular.io/)
+- Bootstrap 4
+- Font Awesome
 
 ## Contributing
 

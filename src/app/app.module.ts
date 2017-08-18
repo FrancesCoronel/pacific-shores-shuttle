@@ -1,45 +1,54 @@
-/* Angular Components */
-import { NgModule } from '@angular/core';
+/**
+ * Core
+ */
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
-/* Vendor Components */
+/**
+ * Vendor
+ */
 import { MomentModule } from 'angular2-moment';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import 'hammerjs';
 import { NgxGalleryModule } from 'ngx-gallery';
 
-/* Created Components */
+/**
+ * Components
+ */
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { FooterComponent } from './footer/footer.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { AboutComponent } from './about/about.component';
-import { ArrivingComponent } from './arriving/arriving.component';
-import { DepartingComponent } from './departing/departing.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { AboutComponent } from './components/about/about.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { HomeComponent } from './components/home/home.component';
+import { ArrivingComponent } from './components/arriving/arriving.component';
+import { DepartingComponent } from './components/departing/departing.component';
+import { NotFoundComponent } from './components/notfound/notfound.component';
 
-/* Created Pipes */
-
+/**
+ * Routes
+ */
 const routes: Routes = [
-  { path: '', component: WelcomeComponent },
+  { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+  { path: 'welcome', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'arriving', component: ArrivingComponent },
-  { path: 'departing', component: DepartingComponent }
+  { path: 'departing', component: DepartingComponent },
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
-    FooterComponent,
-    WelcomeComponent,
     AboutComponent,
+    HeaderComponent,
+    FooterComponent,
+    GalleryComponent,
+    HomeComponent,
     ArrivingComponent,
     DepartingComponent,
-    GalleryComponent
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -48,13 +57,13 @@ const routes: Routes = [
     NgxGalleryModule,
     RouterModule.forRoot(
       routes,
-      { enableTracing: false } // <-- debugging purposes only
+      {
+        enableTracing: false // debugging purposes only
+      }
     ),
-    MomentModule,
-    NgbModule.forRoot()
+    MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }

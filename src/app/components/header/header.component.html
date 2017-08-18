@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" [routerLink]="['/']">
+    <img src="https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg" height="50" alt="Pacific Shores Shuttle">
+  </a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse" data-toggle="collapse" data-target="#navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/']"><b>Pacific Shores Shuttle</b></a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['/about']"><i class="fa fa-info-circle"></i>About</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['/arriving']"><i class="fa fa-sun-o"></i>Arrivals</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]="['active']">
+        <a class="nav-link" [routerLink]="['/departing']"><i class="fa fa-moon-o"></i>Departures</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li class="nav-item float-sm-right">
+        <p class="nav-link live-clock">
+          {{ todayDate | amDateFormat: 'dddd MMMM D, YYYY hh:mm:ss A' }}
+        </p>
+      </li>
+    </ul>
+  </div>
+</nav>
