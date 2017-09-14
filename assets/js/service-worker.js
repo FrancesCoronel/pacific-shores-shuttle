@@ -7,11 +7,8 @@ self.addEventListener("install", e => {
       return cache
         .addAll([
           `/`,
-          `assets/js/min/main.min.js?timestamp=${timeStamp}`,
-          `assets/css/main.css?timestamp=${timeStamp}`,
           `assets/favicons/favicon.ico?timestamp=${timeStamp}`,
-          `assets/img/teaser.png?timestamp=${timeStamp}`,
-          `assets/img/logo-circle.svg?timestamp=${timeStamp}`
+          `assets/js/service-worker.min.js?timestamp=${timeStamp}`
         ])
         .then(() => self.skipWaiting());
     })
