@@ -15,11 +15,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com) and this pr
 
 ## [Unreleased](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v1.0.0...HEAD)
 
+## [0.1.2](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v0.0.2...v1.0.0) - 2017-09-13
+
+### Added
+
+- CloudFlare apps
+
+### Changed
+
+- new font
+- improved formatting overall
+
 ## [0.0.2](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v0.0.1...v0.0.2) - 2017-08-13
 
 ### Added
 
-- Changelog to keep track of everything
+- changelog to keep track of everything
 
 ### Changed
 
