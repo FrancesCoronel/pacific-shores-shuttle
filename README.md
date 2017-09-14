@@ -1,12 +1,10 @@
-![Pacific Shores Shuttle](https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.svg)
+![Pacific Shores Shuttle](https://fvcproductions.github.io/pacific-shores-shuttle/assets/img/logo.png)
 
 # Pacific Shores Shuttle
 
 [![Github Issues](https://img.shields.io/github/issues/fvcproductions/pacific-shores-shuttle.svg?style=flat-square)](https://github.com/fvcproductions/pacific-shores-shuttle/issues) [![GitHub Pull-Requests](https://img.shields.io/github/issues-pr/fvcproductions/pacific-shores-shuttle.svg?style=flat-square)](https://github.com/fvcproductions/pacific-shores-shuttle/pulls) [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square)](http://paypal.me/fvcproductions)
 
 If you work at Pacific Shores, you can figure out when the next shuttle is coming! 🚌
-
-![Screenshot](https://i.imgur.com/aewjZ76.png)
 
 ## Installation
 

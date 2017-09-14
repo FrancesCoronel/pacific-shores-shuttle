@@ -30,8 +30,7 @@ import { NotFoundComponent } from './components/notfound/notfound.component';
  * Routes
  */
 const routes: Routes = [
-  { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-  { path: 'welcome', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'arriving', component: ArrivingComponent },
   { path: 'departing', component: DepartingComponent },
@@ -55,15 +54,12 @@ const routes: Routes = [
     FormsModule,
     HttpModule,
     NgxGalleryModule,
-    RouterModule.forRoot(
-      routes,
-      {
-        enableTracing: false // debugging purposes only
-      }
-    ),
+    RouterModule.forRoot(routes, {
+      enableTracing: false // debugging purposes only
+    }),
     MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
