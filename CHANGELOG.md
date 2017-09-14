@@ -13,9 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com) and this pr
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
-## [Unreleased](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v1.0.0...HEAD)
-
-## [0.1.2](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v0.0.2...v1.0.0) - 2017-09-13
+## 0.1.2 - 2017-09-13
 
 ### Added
 
@@ -26,7 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com) and this pr
 - new font
 - improved formatting overall
 
-## [0.0.2](https://github.com/fvcproductions/pacific-shores-shuttle/compare/v0.0.1...v0.0.2) - 2017-08-13
+## 0.0.2 - 2017-08-13
 
 ### Added
 
@@ -36,7 +34,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com) and this pr
 
 - new shuttle times starting August 14th, 2017
 
-## 0.0.1 - 2017-08-13
+## Initial - 2017-08-13
 
 ### Added
 
