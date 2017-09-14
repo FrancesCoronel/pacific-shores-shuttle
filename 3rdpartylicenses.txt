@@ -77,6 +77,8 @@ THE SOFTWARE.
 
 @angular/http@4.3.6 MIT
 
+script-loader@0.7.0 MIT
+
 webpack@3.4.1 MIT
 Copyright JS Foundation and other contributors
 
