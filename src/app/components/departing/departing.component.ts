@@ -29,16 +29,16 @@ export class DepartingComponent implements OnInit {
         'arrives': '4:48 pm'
       }, {
         'line': '376',
-        'leaves': '5:18 pm',
-        'arrives': '5:42 pm'
+        'leaves': '5:04 pm',
+        'arrives': '5:28 pm'
       }, {
         'line': '385',
-        'leaves': '6:17 pm',
-        'arrives': '6:41 pm'
+        'leaves': '6:00 pm',
+        'arrives': '6:24 pm'
       }, {
         'line': '284',
-        'leaves': '6:56 pm',
-        'arrives': '7:20 pm'
+        'leaves': '6:39 pm',
+        'arrives': '7:03 pm'
       }, {
         'line': '190',
         'leaves': '7:50 pm',
@@ -61,16 +61,16 @@ export class DepartingComponent implements OnInit {
         'arrives': '4:48 pm'
       }, {
         'line': '376',
-        'leaves': '5:21 pm',
-        'arrives': '5:42 pm'
+        'leaves': '5:07 pm',
+        'arrives': '5:28 pm'
       }, {
         'line': '385',
-        'leaves': '6:20 pm',
-        'arrives': '6:41 pm'
+        'leaves': '6:03 pm',
+        'arrives': '6:24 pm'
       }, {
         'line': '284',
-        'leaves': '6:59 pm',
-        'arrives': '7:20 pm'
+        'leaves': '6:42 pm',
+        'arrives': '7:03 pm'
       }, {
         'line': '190',
         'leaves': '7:53 pm',
@@ -93,16 +93,16 @@ export class DepartingComponent implements OnInit {
         'arrives': '4:48 pm'
       }, {
         'line': '376',
-        'leaves': '5:24 pm',
-        'arrives': '5:42 pm'
+        'leaves': '5:10 pm',
+        'arrives': '5:28 pm'
       }, {
         'line': '385',
-        'leaves': '6:23 pm',
-        'arrives': '6:41 pm'
+        'leaves': '6:06 pm',
+        'arrives': '6:24 pm'
       }, {
         'line': '284',
-        'leaves': '7:02 pm',
-        'arrives': '7:20 pm'
+        'leaves': '6:45 pm',
+        'arrives': '7:03 pm'
       }, {
         'line': '190',
         'leaves': '7:56 pm',
@@ -125,16 +125,16 @@ export class DepartingComponent implements OnInit {
         'arrives': '4:48 pm'
       }, {
         'line': '376',
-        'leaves': '5:27 pm',
-        'arrives': '5:42 pm'
+        'leaves': '5:13 pm',
+        'arrives': '5:28 pm'
       }, {
         'line': '385',
-        'leaves': '6:26 pm',
-        'arrives': '6:41 pm'
+        'leaves': '6:09 pm',
+        'arrives': '6:24 pm'
       }, {
         'line': '284',
-        'leaves': '7:05 pm',
-        'arrives': '7:20 pm'
+        'leaves': '6:48 pm',
+        'arrives': '7:03 pm'
       }, {
         'line': '190',
         'leaves': '7:59 pm',

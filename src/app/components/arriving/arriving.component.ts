@@ -40,16 +40,16 @@ export class ArrivingComponent implements OnInit {
         'arrives': '9:30 am'
       }, {
         'line': '135',
-        'leaves': '10:00 am',
-        'arrives': '10:13 am'
+        'leaves': '10:02 am',
+        'arrives': '10:15 am'
       }, {
         'line': '237',
-        'leaves': '10:36 am',
-        'arrives': '10:49 am'
+        'leaves': '10:37 am',
+        'arrives': '10:50 am'
       }, {
         'line': '139',
-        'leaves': '11:05 am',
-        'arrives': '11:18 am'
+        'leaves': '11:06 am',
+        'arrives': '11:19 am'
       }
     ]
   }, {
@@ -79,16 +79,16 @@ export class ArrivingComponent implements OnInit {
         'arrives': '9:31 am'
       }, {
         'line': '135',
-        'leaves': '10:00 am',
-        'arrives': '10:14 am'
+        'leaves': '10:02 am',
+        'arrives': '10:16 am'
       }, {
         'line': '237',
-        'leaves': '10:36 am',
-        'arrives': '10:50 am'
+        'leaves': '10:37 am',
+        'arrives': '10:51 am'
       }, {
         'line': '139',
-        'leaves': '11:05 am',
-        'arrives': '11:19 am'
+        'leaves': '11:06 am',
+        'arrives': '11:20 am'
       }
     ]
   }, {
@@ -118,16 +118,16 @@ export class ArrivingComponent implements OnInit {
         'arrives': '9:32 am'
       }, {
         'line': '135',
-        'leaves': '10:00 am',
-        'arrives': '10:15 am'
+        'leaves': '10:02 am',
+        'arrives': '10:17 am'
       }, {
         'line': '237',
-        'leaves': '10:36 am',
-        'arrives': '10:51 am'
+        'leaves': '10:37 am',
+        'arrives': '10:52 am'
       }, {
         'line': '139',
-        'leaves': '11:05 am',
-        'arrives': '11:20 am'
+        'leaves': '11:06 am',
+        'arrives': '11:21 am'
       }
     ]
   }, {
@@ -146,7 +146,7 @@ export class ArrivingComponent implements OnInit {
       }, {
         'line': '221',
         'leaves': '8:17 am',
-        'arrives': '8:36 am'
+        'arrives': '8:34 am'
       }, {
         'line': '329',
         'leaves': '8:46 am',
@@ -157,16 +157,16 @@ export class ArrivingComponent implements OnInit {
         'arrives': '9:34 am'
       }, {
         'line': '135',
-        'leaves': '10:00 am',
-        'arrives': '10:17 am'
+        'leaves': '10:02 am',
+        'arrives': '10:19 am'
       }, {
         'line': '237',
-        'leaves': '10:36 am',
-        'arrives': '10:53 am'
+        'leaves': '10:37 am',
+        'arrives': '10:54 am'
       }, {
         'line': '139',
-        'leaves': '11:05 am',
-        'arrives': '11:22 am'
+        'leaves': '11:06 am',
+        'arrives': '11:23 am'
       }
     ]
   }];

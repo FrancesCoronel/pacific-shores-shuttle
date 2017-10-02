@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com) and this pr
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
+## 0.1.3 - 2017-10-01
+
+### Changed
+
+- New schedule effective October 2nd
+
 ## 0.1.2 - 2017-09-13
 
 ### Added
