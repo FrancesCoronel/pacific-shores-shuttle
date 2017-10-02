@@ -7,10 +7,10 @@ self.addEventListener('install', e => {
       return cache.addAll([
           `/`,
           `assets/favicons/favicon.ico?timestamp=${timeStamp}`,
-          `assets/img/stops/1200.png?timestamp=${timeStamp}`,
-          `assets/img/stops/1400.png?timestamp=${timeStamp}`,
-          `assets/img/stops/1700.png?timestamp=${timeStamp}`,
-          `assets/img/stops/1900.png?timestamp=${timeStamp}`,
+          `assets/img/stops/1200.jpg?timestamp=${timeStamp}`,
+          `assets/img/stops/1400.jpg?timestamp=${timeStamp}`,
+          `assets/img/stops/1700.jpg?timestamp=${timeStamp}`,
+          `assets/img/stops/1900.jpg?timestamp=${timeStamp}`,
           `assets/img/stops/caltrain.png?timestamp=${timeStamp}`,
           `assets/img/map.png?timestamp=${timeStamp}`,
           `assets/img/logo.svg?timestamp=${timeStamp}`
