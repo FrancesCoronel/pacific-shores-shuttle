@@ -1,8 +1,10 @@
 let version = '1.0';
+// let filesToCache = [];
+let timeStamp = Date.now();
 
-self.addEventListener('install', e => {
-  let timeStamp = Date.now();
-  e.waitUntil(
+self.addEventListener('install', event => {
+  event.waitUntil(
+    // pre-fetch the app resources
     caches.open('pacific-shores-shuttle').then(cache => {
       return cache.addAll([
           `/`,
@@ -20,10 +22,17 @@ self.addEventListener('install', e => {
   );
 });
 
+// add an activate event handler
 self.addEventListener('activate', event => {
+  // event.waitUntil(
+  //   caches.keys().then(function(keylist) {
+
+  //   });
+  // )
   event.waitUntil(self.clients.claim());
 });
 
+// add a fetch event handler
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request, {

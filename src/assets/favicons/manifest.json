@@ -1,12 +1,6 @@
 {
-  "short_name": "PSS",
   "name": "Pacific Shores Shuttle",
-  "start_url": "/?homescreen=1",
-  "background_color": "#FAFAFA",
-  "theme_color": "#d1323d",
-  "scope": "/",
-  "display": "standalone",
-  "orientation": "portrait",
+  "short_name": "PSS",
   "icons": [
     {
       "src": "favicon-36.png",
@@ -53,5 +47,11 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/?homescreen=1",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAFAFA",
+  "theme_color": "#d1323d",
+  "scope": "/"
 }

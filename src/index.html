@@ -116,18 +116,21 @@
 
   </script>
   <script>
+    // set up scope
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.min.js', {
+      navigator.serviceWorker.register('/service-worker.min.js', {
           scope: '/'
         })
-        .then(function (registration) {
-          console.log('Service Worker Registered');
+        .then(function(registration) {
+          console.log('Service Worker Registered', registration);
+        })
+        .catch(function(error) {
+          console.log('Error registering service worker', error)
         });
       navigator.serviceWorker.ready.then(function (registration) {
-        console.log('Service Worker Ready');
+        console.log('Service Worker Ready', registration);
       });
     }
-
   </script>
 </body>
 
